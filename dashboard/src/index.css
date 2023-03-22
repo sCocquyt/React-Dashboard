@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style-type: none;
+
+}
+
+.list-class {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  margin: 2px
+}
+
+.title-container {
+  display: flex;
+  border: 0px solid #fff;
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+  font-weight: bold;
+  background-color: rgb(126, 231, 221);
+  margin-bottom: 10px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px;
+
+  
+}
+
+.todo-hw-list {
+  margin-right: 20px;
+  flex-direction: column;
+  padding-right: 20px;
+  border-style: none solid none none;
+  border-color: black;
+}
+
+.todo-life-list {
+  flex-direction: column;
+} 
+
+.titles {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.health-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.survey-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.components1 {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: right;
+
+}
+
+.health-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.display-components {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+
+}
+.clicked {
+  background-color: rgb(0, 0, 255);
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  margin: 2px
+
+}
+.unclicked {
+  background-color: rgb(193, 193, 193);
+  border-radius: 50%;
+  border: 1px solid rgb(0, 0, 0);
+  width: 20px;
+  height: 20px;
+  margin: 2px
+}
+
+.display-container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding-left: 20px;
+  border-right: 2px;
+  border-color: black;
+  border-style: none none none solid;
+}
+
+.margin-top {
+  margin-top: 5px;
+}
+
+
